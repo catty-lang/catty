@@ -1,2 +1,3 @@
 *.md linguist-detectable
 *.antlr linguist-detectable
+*.yml linguist-detectable
