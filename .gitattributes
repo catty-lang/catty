@@ -1,4 +1,4 @@
 *.md -linguist-detectable
-*.g4 linguist-detectable
+*.g4 -linguist-detectable
 *.yml linguist-detectable
 *.yml linguist-language = ANTLR
