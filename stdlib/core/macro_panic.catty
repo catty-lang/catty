@@ -1,0 +1,4 @@
+#pragma stdlib toggle on
+#ccp enable macro
+macro panic{
+}
