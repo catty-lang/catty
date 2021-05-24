@@ -8,4 +8,5 @@ edition = "2018"
 
 [dependencies]
 pest = "2.1.3"
-rustler = "0.21.1"
+#llvm-sys = "110.0.1"
+llvmenv = "0.3.1"
