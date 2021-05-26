@@ -2,7 +2,7 @@
 
 # CattyLang
 
-[![Discord](https://img.shields.io/discord/809302664914796546?label=discord&logo=discord)](https://discord.gg/ypcMSagbtv) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/CattyLang/CattyLang) ![GitHub issues](https://img.shields.io/github/issues/CattyLang/CattyLang)
+[![Discord](https://img.shields.io/discord/809302664914796546?label=discord&logo=discord)](https://discord.gg/ypcMSagbtv) ![Gitter](https://img.shields.io/gitter/room/CattyLang/community) ![GitHub issues](https://img.shields.io/github/issues/CattyLang/CattyLang)
 
 The programming language of cats.
 
