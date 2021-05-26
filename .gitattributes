@@ -3,3 +3,4 @@
 mix.exs -linguist-detectable
 *.lex linguist-detectable
 *.re -linguist-detectable
+*.re -linguist-detectable
