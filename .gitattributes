@@ -5,3 +5,5 @@ mix.exs -linguist-detectable
 *.re -linguist-detectable
 *.re -linguist-detectable
 Makefile linguist-detectable
+*.catty linguist-detectable
+*.catty linguist-language=Catty
