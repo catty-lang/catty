@@ -1,8 +1,12 @@
 
 
 # CattyLang
-
-[![Discord](https://img.shields.io/discord/809302664914796546?label=discord&logo=discord)](https://discord.gg/ypcMSagbtv)[![Discord](https://img.shields.io/discord/825999196938829824?label=Turkish%20Discord)](https://discord.gg/qx49SsXWuQ)[![Gitter](https://img.shields.io/gitter/room/CattyLang/community)](https://gitter.im/CattyLang/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![GitHub issues](https://img.shields.io/github/issues/CattyLang/CattyLang)](https://github.com/CattyLang/CattyLang/issues)[![CI](https://github.com/CattyLang/CattyLang/actions/workflows/blank.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/blank.yml)
+<center>
+  
+[![Discord](https://img.shields.io/discord/809302664914796546?label=discord&logo=discord)](https://discord.gg/ypcMSagbtv)[![Discord](https://img.shields.io/discord/825999196938829824?label=Turkish%20Discord)](https://discord.gg/qx49SsXWuQ)[![Gitter](https://img.shields.io/gitter/room/CattyLang/community)](https://gitter.im/CattyLang/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![GitHub issues](https://img.shields.io/github/issues/CattyLang/CattyLang)](https://github.com/CattyLang/CattyLang/issues)[![CI](https://github.com/CattyLang/CattyLang/actions/workflows/blank.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/blan
+k.yml)[![Docker](https://github.com/CattyLang/CattyLang/actions/workflows/docker-publish_2.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/docker-publish_2.yml)[![CodeQL](https://github.com/CattyLang/CattyLang/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/codeql-analysis.yml)
+  
+</center>
 
 The programming language of cats.
 
