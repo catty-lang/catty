@@ -7,3 +7,5 @@ mix.exs -linguist-detectable
 Makefile linguist-detectable
 *.catty linguist-detectable
 *.catty linguist-language=Catty
+*.html linguist-documentation
+*.css linguist-documentation
