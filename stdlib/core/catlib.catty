@@ -1,8 +1,0 @@
-
-pub mod std{
-    pub group StdIO{
-      pub fn Miaow(val: logic){
-          sleep::io:print(val);
-      }
-    }
-}
