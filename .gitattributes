@@ -3,6 +3,7 @@
 mix.exs -linguist-detectable
 *.lex linguist-detectable
 *.re -linguist-detectable
+*.hs linguist-detectable
 *.re -linguist-detectable
 Makefile linguist-detectable
 *.catty linguist-detectable
