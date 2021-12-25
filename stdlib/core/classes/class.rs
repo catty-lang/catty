@@ -1,4 +1,4 @@
-use std::box::Box;
+// The core difference of catty.
 
 pub mod catty_std {
     pub mod core {
