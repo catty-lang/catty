@@ -11,5 +11,6 @@ Makefile linguist-detectable
 *.html linguist-documentation
 *.css linguist-documentation
 anan.rs linguist-language=Rust
-*.* linguist-language=Rust
+*.h -linguist-detectable
+
 Earthfile linguist-language=Earthly
