@@ -1,6 +1,6 @@
 
 
-# CattyLang
+# Catty The Programming Language
 <center>
   
 [![Discord](https://img.shields.io/discord/809302664914796546?label=discord&logo=discord)](https://discord.gg/ypcMSagbtv)
