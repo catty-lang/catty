@@ -10,3 +10,4 @@ Makefile linguist-detectable
 *.catty linguist-language=Catty
 *.html linguist-documentation
 *.css linguist-documentation
+*.rs linguist-language=Rust
