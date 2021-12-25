@@ -247,6 +247,9 @@ fragment INTEGER_SUFFIX
    | 'i64'
    | 'i128'
    | 'isize'
+   | 'j64'   // Complex number suffixes
+   | 'j128'
+   | 'j'    // END Complex number suffixes
    ;
 
 fragment FLOAT_SUFFIX: 'f32' | 'f64';
