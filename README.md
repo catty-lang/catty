@@ -1,27 +1,38 @@
 
 
 # Catty The Programming Language
-<center>
-  
-[![Discord](https://img.shields.io/discord/809302664914796546?label=discord&logo=discord)](https://discord.gg/ypcMSagbtv)
-[![Gitter](https://img.shields.io/gitter/room/CattyLang/community)](https://gitter.im/CattyLang/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link) 
-[![GitHub issues](https://img.shields.io/github/issues/CattyLang/CattyLang)](https://github.com/CattyLang/CattyLang/issues)
-[![CI](https://github.com/CattyLang/CattyLang/actions/workflows/blank.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/blank.yml)[![Docker](https://github.com/CattyLang/CattyLang/actions/workflows/docker-publish_2.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/docker-publish_2.yml)[![CodeQL](https://github.com/CattyLang/CattyLang/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CattyLang/CattyLang/actions/workflows/codeql-analysis.yml)
-  
-</center>
 
 The programming language of cats.
 
+# What
 
-Catty is a localisable, cross-platform, compiled programming language designed by [Yiğit Cemal Öztürk](https://github.com/CadmiumC4). It is still being developed and cannot be used for now.
-<!--
-## Useful Repositorie
-<!-- [**Compiler repository**](https://github.com/CattyLang/cattylang-compiler)
-- [**Repository of Atatürk Runtime**](https://github.com/CattyLang/ataturk-rt)
-- [**Repository of Atatürk Runtime for Mobile Devices**](https://github.com/CattyLang/ataturk-rt-mobile)
-- [**Repository of WebMeow, a web runtime for Catty**](https://github.com/CattyLang/webmeow)
+Catty is a localisable, cross-platform, compiled programming language designed with computational linguistics in mind. The syntax of Catty is designed in such a way that it can be replaced by using
+code written in Catty. The language was heavily influenced by Rust and Awk.
 
+# Why
 
-###### Footnote:
-The rest of this repository is going to be written in Turkish, because I cannot betray my home country and my main language. However, I will create an English section for the notes.
--->
+Developing lexers and parsers is a honorably difficult task. Catty aims to make this process easier by providing a language that can be used to generate lexers and parsers. The language and its standard library, honorably called the Open Computational Linguistics Platform (OCLP), is designed to have anything one could need in a lexing and parsing library, and to be easily localisable and cross-platform.
+
+# But what does it look like?
+
+Didn't I just say... localisable?
+
+Here comes the fact: the language does not have a definite syntax. It only has a base syntax
+that you can easily modify using the OCLP. The base syntax was heavily influenced by Rust and Awk, but you can easily change it to be more like Python, or even like C.
+
+```rust
+use oclp::lexer::Lexer;
+use oclp::prelude::*;
+use oclp::re::prelude::*;
+use std::prelude::*; // needs to be explicitly specified.
+
+let mut lexer = Lexer::new();
+lexer.use_parallel(); // lexes the text concurrently.
+lexer.mount(move |tokens| |corpus| {
+    if let Some(m) = corpus >~< /[0-9]+/ {
+        // ">~<" is the "blushing face" operator. It is used to match a regular expression.
+         tokens.push(oclp::tokens::common::Number(m));
+         stdio.meowln("Matched a number: {}", m);
+    }
+});
+```

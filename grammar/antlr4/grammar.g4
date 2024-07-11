@@ -192,6 +192,8 @@ BYTE_STRING_LITERAL: 'b"' (~["] | QUOTE_ESCAPE | BYTE_ESCAPE)* '"';
 
 RAW_BYTE_STRING_LITERAL: 'br' RAW_STRING_CONTENT;
 
+REGEX_LITERAL: '/' RAW_STRING_CONTENT '/' ;
+
 fragment ASCII_ESCAPE: '\\x' OCT_DIGIT HEX_DIGIT | COMMON_ESCAPE;
 
 fragment BYTE_ESCAPE: '\\x' HEX_DIGIT HEX_DIGIT | COMMON_ESCAPE;
@@ -295,6 +297,7 @@ SCLEQ: '<<@=';
 SCREQ: '>>@=';
 SQCEQ: '::=';
 XNOR: '<=>';
+BLUSH: '>~<'; // or should I have called it the Torino operator :3
 EQ: '=';
 EQEQ: '==';
 NE: '!=';
